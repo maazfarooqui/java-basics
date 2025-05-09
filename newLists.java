@@ -6,6 +6,7 @@ public class newLists {
     final int y =12;
     public static void main(String args[])
     {
+        @SuppressWarnings("unused")
         List<String> arr = new ArrayList<>();
 
         int[] arr2 = {2,3,23,34,12};
@@ -19,7 +20,11 @@ public class newLists {
 
         final char joh = 65;
         System.out.println(joh);
+
+        
     }
+
+    
 }
 
 

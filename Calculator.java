@@ -12,10 +12,10 @@ public class Calculator{
         System.out.println("enter time period for which you want to invest");
         t = sc.nextFloat();
 
-        double x = 123.0;
+       
 
         System.out.println("your Simple interest at the end of period will be: " + (p*t*r)/100);
 
-
+        sc.close();
     }
 }

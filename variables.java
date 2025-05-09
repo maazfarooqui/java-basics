@@ -9,5 +9,7 @@ public class variables {
         String myname = sc.nextLine();
 
         System.out.println(myname);
+
+        sc.close();
     }
 }
